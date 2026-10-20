@@ -11,18 +11,19 @@ html {
 body {
     background-color: hsl(228, 99%, 58%);
     font-family: "Inter", sans-serif;
+    color: hsl(0, 0%, 100%);
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: hsl(0, 0%, 100%);
     font-size: 14px;
     font-weight: 400;
     border-bottom: hsl(224, 100%, 95%, 0.4) solid 0.1px;
     padding: 1rem 2.5rem;
     letter-spacing: -0.5px;
+    min-height: 7vh;
 }
 
 nav ul {
@@ -43,4 +44,58 @@ nav ul li::before {
     height: 10px;
     background-color: white;
     border-radius: 50%;
+}
+
+main{
+    display: flex;
+    min-height: 86vh;
+}
+
+.hero {
+    min-width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    gap: 3rem;
+    padding: 2.5rem;
+}
+
+.hero h1{
+    font-size: 4rem;
+}
+
+.stats {
+    min-width: 55%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: hsl(224, 100%, 95%, 0.4) solid 0.1px;
+    border-bottom: hsl(224, 100%, 95%, 0.4) solid 0.1px;
+    padding: 2.5rem;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2.5rem;
+    min-height: 7vh;
+    border-top: hsl(224, 100%, 95%, 0.4) solid 0.1px;
 }
