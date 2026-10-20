@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 17px;
+}
+
+body {
+    background-color: hsl(228, 99%, 58%);
+    font-family: "Inter", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-weight: 400;
+    border-bottom: hsl(224, 100%, 95%, 0.4) solid 0.1px;
+    padding: 1rem 2.5rem;
+    letter-spacing: -0.5px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+
+nav ul li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+nav ul li::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
