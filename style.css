@@ -52,30 +52,30 @@ main{
 }
 
 .hero {
-    min-width: 45%;
+    min-width: 40%;
     display: flex;
     flex-direction: column;
     justify-content:center;
-    gap: 3rem;
+    gap: 2rem;
     padding: 2.5rem;
 }
 
 .hero h1{
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 500;
-    width: 55%;
+    width: 70%;
 }
 
 .hero p {
-    font-size: 1.2rem;
+    font-size: 14px;
     font-weight: 400;
     opacity: 80%;
-    width: 55%;
+    width: 70%;
     line-height: 1.8;
 }
 
 .stats {
-    min-width: 55%;
+    min-width: 60%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -104,6 +104,12 @@ main{
     justify-content: space-between;
 }
 
+.top h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
 .bottom {
     display: flex;
     flex-direction: column;
@@ -111,7 +117,7 @@ main{
 }
 
 .bottom h3 {
-    font-size: 1.2rem;
+    font-size: 17px;
     opacity: 95%;
     font-weight: 400;
     letter-spacing: 0.5px;
@@ -120,6 +126,7 @@ main{
 .bottom p {
     opacity: 85%;
     font-weight: 400;
+    font-size: 14px;
 }
 
 footer {
@@ -130,4 +137,5 @@ footer {
     min-height: 7vh;
     border-top: hsl(224, 100%, 95%, 0.4) solid 0.1px;
     font-weight: 500;
+    font-size: 14px;
 }
